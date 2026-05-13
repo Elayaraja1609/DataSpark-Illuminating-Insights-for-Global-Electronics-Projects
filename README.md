@@ -1,7 +1,7 @@
 # DataSpark: Illuminating Insights for Global Electronics
 
 ## Project Overview
-DataSpark is a comprehensive Data Analytics and Business Intelligence project focused on analyzing global electronics sales data. The project aims to uncover actionable insights related to customer behavior, product performance, sales trends, and store operations using Python, SQL, and Power BI/Tableau.
+DataSpark is a comprehensive Data Analytics and Business Intelligence project focused on analyzing global electronics sales data. The project aims to uncover actionable insights related to customer behavior, product performance, sales trends, and store operations using Python, SQL, and Power BI.
 
 This project demonstrates an end-to-end data analytics workflow including:
 - Data Cleaning & Preprocessing
@@ -112,26 +112,32 @@ Dashboard highlights:
 ```bash
 DataSpark-Illuminating-Insights-for-Global-Electronics-Projects/
 │
-├── data/
+├── dataset/
+│   ├── customers.csv
+│   ├── products.csv
+│   ├── data_dictionary.csv
+│   ├── sales.csv
+│   ├── stores.csv
+│   └── exchange_rates.csv
+│
+├── Cleaned_csv_files/
 │   ├── customers.csv
 │   ├── products.csv
 │   ├── sales.csv
 │   ├── stores.csv
 │   └── exchange_rates.csv
 │
-├── notebooks/
-│   └── eda_analysis.ipynb
-│
-├── sql/
-│   ├── schema.sql
-│   └── analysis_queries.sql
-│
-├── dashboard/
-│   └── powerbi_dashboard.pbix
+├── dashboards/
+│   ├── dataspark_presentation.pptx
+│   └── data_spark_project.pbix
 │
 ├── images/
 │   └── dashboard_screenshots/
+│        └── Screenshot.png
 │
+├── CreateTables.ipynb
+├── Datacleaning.ipynb
+├── Sql_Queries_for_Analytics.sql
 ├── README.md
 └── requirements.txt
 ```
@@ -186,8 +192,6 @@ jupyter
 ---
 
 # Dashboard Preview
-
-Add your dashboard screenshots inside the `images/` folder and update the image path below.
 
 ![Dashboard Screenshot](https://raw.githubusercontent.com/Elayaraja1609/DataSpark-Illuminating-Insights-for-Global-Electronics-Projects/main/Images/Dashboard_Screenshots/Screenshot%202026-05-13%20112929.png)
 
