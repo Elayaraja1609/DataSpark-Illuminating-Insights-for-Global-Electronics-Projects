@@ -189,9 +189,8 @@ jupyter
 
 Add your dashboard screenshots inside the `images/` folder and update the image path below.
 
-```md
-![Dashboard Screenshot](images/dashboard_screenshot.png)
-```
+![Dashboard Screenshot](https://raw.githubusercontent.com/Elayaraja1609/DataSpark-Illuminating-Insights-for-Global-Electronics-Projects/main/Images/Dashboard_Screenshots/Screenshot%202026-05-13%20112929.png)
+
 
 ---
 
